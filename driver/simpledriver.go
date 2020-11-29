@@ -27,7 +27,7 @@ type SimpleDriver struct {
 func (s *SimpleDriver) Initialize(lc logger.LoggingClient, asyncCh chan<- *dsModels.AsyncValues) error {
 	s.lc = lc
 	s.asyncCh = asyncCh
-	fmt.Println("Initialize success!!!!")
+	fmt.Println("Initialize success!!!@!!")
 	return nil
 }
 
